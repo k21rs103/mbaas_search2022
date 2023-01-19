@@ -21,9 +21,9 @@
             TestDataClass.fetchAll().then(function(results) {
                 showResults(results);
             })
-        var audio = new Audio();
-        audio.src = "button.mp3";
-        audio.play(); 
+            var audio = new Audio();
+            audio.src = "button.mp3";
+            audio.play();
         }
 
 
@@ -33,6 +33,9 @@
                 .then(function(results) {
                     showResults(results);
                 })
+            var audio = new Audio();
+            audio.src = "button.mp3";
+            audio.play();
         }
 
         function searchLevel() {
@@ -41,6 +44,9 @@
             TestDataClass.equalTo("level", level).fetchAll().then(function(results) {
                 showResults(results);
             })
+            var audio = new Audio();
+            audio.src = "button.mp3";
+            audio.play();
         }
 
         function searchLevelLT() {
@@ -52,6 +58,9 @@
                 .then(function(results) {
                     showResults(results);
                 })
+            var audio = new Audio();
+            audio.src = "button.mp3";
+            audio.play();
         }
 
 
@@ -64,6 +73,9 @@
                 .then(function(results) {
                     showResults(results);
                 })
+            var audio = new Audio();
+            audio.src = "button.mp3";
+            audio.play();
         }
 
 
@@ -80,7 +92,7 @@
                 msg += "<td class='num'>" + results[i].attack + "</td>";
                 msg += "<td class='num'>" + results[i].defence + "</td>";
 
-                 msg += "<td class='num'>" + results[i].type + "</td>";
+                msg += "<td class='num'>" + results[i].type + "</td>";
 
                 msg += "</tr>";
             }
